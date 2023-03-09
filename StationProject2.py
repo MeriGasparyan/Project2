@@ -12,6 +12,7 @@ dices = rolling_dices()
 sum = dices[0] + dices[1]
 goal = 0
 
+
 if 4 <= sum <= 10 and sum != 7:
 
     goal = sum
